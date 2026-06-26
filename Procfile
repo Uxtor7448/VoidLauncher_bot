@@ -1,0 +1,1 @@
+worker: python vl_bot.py

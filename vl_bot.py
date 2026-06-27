@@ -10,7 +10,7 @@ from flask import Flask
 from threading import Thread
 
 # ========== КОНФИГ ==========
-BOT_TOKEN = os.getenv('BOT_TOKEN', '8634974357:AAFCQQT72hu5EdsjRwsZ54RnxLXXb7wpyCI')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 CHANNEL_USERNAME = "@VoidLauncher_Team"
 
 # ========== ИНИЦИАЛИЗАЦИЯ ==========

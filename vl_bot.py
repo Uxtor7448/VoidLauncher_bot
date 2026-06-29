@@ -39,7 +39,7 @@ def wake_up():
         try:
             # ВАЖНО: замените НАЗВАНИЕ_СЕРВИСА на ваш URL на Render
             # Пример: https://voidlauncher-bot.onrender.com
-            url = 'https://voidlauncher-bot.onrender.com'
+            url = 'https://vl-bot.onrender.com'
             requests.get(url, timeout=5)
             print(f"🔄 Пинг успешен: {datetime.now().strftime('%H:%M:%S')}")
         except Exception as e:
